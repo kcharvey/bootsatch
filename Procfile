@@ -1,1 +1,1 @@
-web: gunicorn bootsatch.wsgi
+web: gunicorn store.wsgi
