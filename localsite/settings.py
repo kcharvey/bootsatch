@@ -45,14 +45,6 @@ MEDIA_ROOT = os.path.join(DIRNAME, 'static/')
 # Example: "http://media.lawrence.com"
 MEDIA_URL="/media/"
 
-# STATIC_ROOT can be whatever different from other dirs
-STATIC_ROOT = 'staticfiles'
-STATIC_URL = '/static/'
-
-STATICFILES_DIRS = (
-  os.path.join(DIRNAME, 'static/'),
-)
-
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.
 # Examples: "http://foo.com/media/", "/media/".
@@ -190,11 +182,11 @@ ALLOWED_HOSTS = ['*']
 # Static asset configuration
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-STATIC_ROOT = 'staticfiles'
+STATIC_ROOT = 'static'
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-  os.path.join(BASE_DIR, 'static'),
+  os.path.join(BASE_DIR, '../static'),
 )
 
 # Load the local settings
