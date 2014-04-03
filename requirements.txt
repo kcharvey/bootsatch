@@ -1,5 +1,6 @@
 Django==1.4.10
-PIL==1.1.7
+#PIL==1.1.7
+-e hg+https://bitbucket.org/etienned/pil-2009-raclette/#egg=PIL
 PyYAML==3.11
 Satchmo==0.9.3
 South==0.7.3
