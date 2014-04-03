@@ -8,7 +8,7 @@ DJANGO_PROJECT = 'store'
 DJANGO_SETTINGS_MODULE = 'store.settings'
 
 ADMINS = (
-     ('', ''),         # tuple (name, email) - important for error reports sending, if DEBUG is disabled.
+     ('Kevin Harvey', 'kcharvey@gmail.com'),         # tuple (name, email) - important for error reports sending, if DEBUG is disabled.
 )
 
 MANAGERS = ADMINS
@@ -23,6 +23,10 @@ TIME_ZONE = 'US/Pacific'
 LANGUAGE_CODE = 'en-us'
 
 SITE_ID = 1
+
+# From Satchmo's local_settings.py
+SITE_DOMAIN = "http://vast-eyrie-6130.herokuapp.com/"
+SITE_NAME = "Simple Satchmo"
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
