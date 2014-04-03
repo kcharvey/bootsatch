@@ -2,7 +2,8 @@ Django==1.4.10
 #PIL==1.1.7
 -e hg+https://bitbucket.org/etienned/pil-2009-raclette/#egg=PIL
 PyYAML==3.11
-Satchmo==0.9.3
+#Satchmo==0.9.3
+-e hg+https://bitbucket.org/kcharvey/satchmo/@59eae951c3892202c0b876208dbf243ddaa7dc71#egg=Satchmo
 South==0.7.3
 TRML2PDF==1.0
 dj-database-url==0.3.0
