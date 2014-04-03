@@ -89,7 +89,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
         'django.contrib.messages.context_processors.messages',
 )
 
-ROOT_URLCONF = 'urls'
+ROOT_URLCONF = 'localsite.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".

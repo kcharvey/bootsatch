@@ -8,7 +8,8 @@ South==0.7.3
 #TRML2PDF==1.0
 http://www.satchmoproject.com/snapshots/trml2pdf-1.2.tar.gz
 dj-database-url==0.3.0
-dj-static==0.0.5
+#dj-static==0.0.5
+git+https://github.com/wnh/dj-static.git@feature/django-1.4-compat#egg=dj-static
 -e hg+https://bitbucket.org/bkroeze/django-caching-app-plugins/@8bb1dec7fc3528630f8ffb7cd3ba8f8f3760b516#egg=django_caching_app_plugins-dev
 django-keyedcache==1.4-6
 django-livesettings==1.4-11
