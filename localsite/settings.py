@@ -28,6 +28,9 @@ SITE_ID = 1
 SITE_DOMAIN = "http://vast-eyrie-6130.herokuapp.com/"
 SITE_NAME = "Simple Satchmo"
 
+# this is set either by Heroku or in local_settings.py
+DATABASES = {}
+
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
 # Image files will be stored off of this path
