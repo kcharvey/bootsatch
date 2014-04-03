@@ -1,0 +1,5 @@
+*.db
+*.log
+*.pyc
+local_settings.py
+static-collect
