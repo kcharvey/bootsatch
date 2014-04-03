@@ -39,11 +39,11 @@ MEDIA_ROOT = os.path.join(DIRNAME, 'static/')
 MEDIA_URL="/media/"
 
 # STATIC_ROOT can be whatever different from other dirs
-STATIC_ROOT = os.path.join(DIRNAME, 'static-collect/')
+STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-        os.path.join(DIRNAME, 'static/'),
+  os.path.join(DIRNAME, 'static/'),
 )
 
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
@@ -89,7 +89,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
         'django.contrib.messages.context_processors.messages',
 )
 
-ROOT_URLCONF = 'store.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -146,7 +146,6 @@ INSTALLED_APPS = (
     #'satchmo_ext.tieredpricing',
     #'debug_toolbar',
     'app_plugins',
-    'store.localsite',
 )
 
 AUTHENTICATION_BACKENDS = (

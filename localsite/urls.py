@@ -1,6 +1,4 @@
 from django.conf.urls import *
 
+from satchmo_store.urls import urlpatterns
 
-urlpatterns = patterns('',
-    (r'example/', 'simple.localsite.views.example', {}),
-)
